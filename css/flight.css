@@ -1,0 +1,52 @@
+body {
+  background-image: url(/flight.cms);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover; }
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 50px; }
+
+.contain {
+  width: 950px;
+  margin: 30px auto;
+  display: grid;
+  height: 500px;
+  grid-template-rows: 60px 450px;
+  background-color: #fcf8f8; }
+
+.head {
+  background-color: hotpink;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+  grid-column: 1/-1;
+  color: white; }
+
+.maincon {
+  background-color: skyblue;
+  grid-column: 1/-1; }
+
+.fst {
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px; }
+
+.sec {
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px; }
+
+.trd {
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px; }

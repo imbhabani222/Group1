@@ -1,0 +1,14 @@
+{
+  "name": "propart1",
+  "version": "1.0.0",
+  "description": "landing page for project",
+  "main": "index.js",
+  "scripts": {
+    "scss":"node-sass --watch scss -o css" 
+  },
+  "author": "Bhabani Sahu",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
